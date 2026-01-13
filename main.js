@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         SOOP (숲) - 사이드바 UI 변경
-// @name:ko         SOOP (숲) - 사이드바 UI 변경
+// @name:ko      SOOP (숲) - 사이드바 UI 변경
 // @namespace    https://greasyfork.org/ko/scripts/484713
 // @version      20250801
 // @description  사이드바 UI 변경, 월별 리캡, 채팅 모아보기, 차단기능 등
@@ -201,7 +201,7 @@
     let panzoomHandlerInstance = null;
     let offlineUserModal = null;
 
-    const IS_DEV_MODE = true;
+    const IS_DEV_MODE = false;
 
     const customLog = {
         log: function(...args) {
